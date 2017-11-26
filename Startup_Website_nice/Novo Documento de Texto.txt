@@ -1,0 +1,148 @@
+<!DOCTYPE type>
+<html>
+  <head>
+  <title>Startup Website</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Tangerine" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <style>
+	body{
+		width: 100%;
+		height: 100%;
+		background: url("https://designshack.net/wp-content/uploads/26-2.jpg");
+		background-position: 0 0;
+		background-size: 100% 500px;
+		background-repeat: no-repeat;
+		overflow-y: scroll;
+		background-attachment: border-box;
+		}
+		// head of my page head section1 //
+		       h2 {
+			       font-size: 40px;
+				   font-family: 'Tangerine', serif;
+				   color: lime;
+				   text-align: 100px;
+			   }
+			   #p1{
+			      fon-size: 20px;
+				  color: violet;
+				  font-family: 'Roboto', sans-serif;
+				  border: 1px solid grey;
+				  border-radius: 15px;
+				  background: yellow;
+				  width: 150px;
+				  padding: 15px;
+			   }
+			   /* navBar */
+		     ul{
+			    margin: 0;
+				padding: 0;
+				list-style-type: none;
+				text-align: right;
+			 }
+			 ul li{
+			     display: inline-block;
+			   }
+			   li a{
+			      text-decoration: none;
+				  font-size: 30px;
+				  font-family: 'Playfair Display', serif;
+				  padding: 20px;
+			   }
+			   // images section2//
+			   .section2{
+			          width: 100%;
+					  height: 500px;
+			          }
+				.section2 img{
+				      width: 425px;
+					  height: auto;
+					  margin-top: 200px;
+				}
+				.section2 #image{
+				       width: 740px;
+					   margin-top: 10px;
+				    }
+				
+				 #aside{
+				             width: 600px;
+							 height: 490px;
+						      float: right;
+							 background: lightblue;
+							 
+				            }
+							h3{
+							  color: white;
+							  font-size: 40px;
+							}
+					#aside p{
+					        color: green;
+							fon-size: 30px;
+							font-family: 'Roboto', sans-serif;
+					        }
+					#aside #p3{
+					        width: 100px;
+							border: 1px solid grey;
+							border-radius: 10px;
+							color: white;
+							background: blue;
+							padding: 14px;
+							margin: auto;
+					      }
+						  /* navBar in session 5 */
+									 .section3 ul{
+									      text-align: center; 
+									  }
+									  .section3 ul li{
+									          display: inline-block;
+									      }
+							
+		</style>
+  </head>
+  <body>
+       <div>
+	     <div class="section1">
+	         <!-- navBar -->
+				<nav>
+				   <ul>
+				     <li><a href="#">Home</a></li>
+					 <li><a href="#">Services</a></li>
+					 <li><a href="#">Portfolio</a></li>
+					 <li><a href="#">Contact</a></li>
+				   </ul>
+				</nav>
+	                 
+				   <h2>Have a awesome</h2>
+				     <h2>Website</h2>
+					 
+					   <p style="color: blue;font-size: 25px">Fast, Easy & Unlimited Startup</p>
+					   <p id="p1">Start free trial</p>
+		      </div>
+			  <!-- images-->
+			  <div class="section2">
+ <img src="https://tse2.mm.bing.net/th?id=OIP.NTCxoJaU6kPLHl_TZaQQ9wEsDI&pid=15.1&P=0&w=247&h=166" >
+ <img src="http://msnbcmedia.msn.com/i/msnbc/Components/Photo/_new/080826-iMac-hlarge-925a.jpg" >
+ <img src="https://tse4.mm.bing.net/th?id=OIP.0-vQGzT3Y06LrKFZIxBTzQEgDY&pid=15.1&P=0&w=202&h=152">
+ <img src="https://tse1.mm.bing.net/th?id=OIP.pIhZKehRbTSJx-S1MRV_vgEoDS&pid=15.1&P=0&w=230&h=164" id="image">
+                
+				<div id="aside">
+				    <h3>What we</h3>
+					  <h3>Do</h3>
+		                <p>Design and programing a responsive</p>
+		                 <p>website for our client.</p>
+						 <a href="#"><p id="p3">Learn more</p></a>
+				</div>
+			  </div>
+			  <div class="section3">
+			          <nav>
+						       <ul>
+					<li><a href="#"><i class="fa fa-facebook" style="font-size:48px;color:black"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" style="font-size:48px;color:black"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" style="font-size:48px;color:black"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest" style="font-size:48px;color:black"></i></a></li>
+							   </ul>
+						  </nav>
+			  </div>
+	   </div>
+  </body>
+</html>

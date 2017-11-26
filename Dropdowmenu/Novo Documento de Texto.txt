@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+         <title>Portfolio</title>
+		 <style>
+		  ul{
+		     padding: 0;
+			 margin: 0;
+			 list-style-type: none;
+			 text-align: center;
+		      }
+			  ul li{
+			    float: left;
+				background: lightgreen;
+				width: 150px;
+				line-height: 40px;
+			  }
+			   ul li a{
+			        text-decoration: none;
+					font-size: 30px;
+					padding: 20px;
+					color: yellow;
+					display: block;
+			       }
+				   ul li a:hover  {
+				   background: lightgrey;
+				              }
+							  ul li ul li{
+							     display: none;
+							  }
+							  ul li:hover ul li{
+							       display: block;
+							  }
+		 </style>
+</head>
+<body>
+       <div>
+	   <div class="nav">
+	          <nav>
+			     <ul>
+				     <li><a href="#">Home</a>
+					 <ul>
+						   <li><a href="#">Website Desing</a></li>
+						   <li><a href="#">Social Media</a></li>
+						   <li><a href="#">Search Engine</a></li>
+						</ul>
+					 </li>
+					 <li><a href="#">Services</a></li>
+					 <li><a href="#">Portfolio</a></li>
+					 <li><a href="#">Contact</a></li>
+				 </ul>
+			  </nav>
+	   </div>
+	      <div class="images">
+		   <img src="">
+		  </div>
+	   </div>
+</body>

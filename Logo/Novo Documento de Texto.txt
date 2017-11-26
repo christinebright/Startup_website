@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8">
+   <title>Startup website</title>
+   <style>
+      body{
+     margin: 50px;
+   }
+
+.transform{
+  transform: Skew(-20deg);
+}
+ellipse{
+  mix-blend-mode: screen;
+}
+.isolate{
+  isolation: isolate;
+}
+text{
+  font-size: 35px;
+  font-style: oblique;
+  fill:red;
+  stroke: blue;
+}
+   </style>
+</head>
+<body>
+   
+   <svg width="400" height="300">
+   <!-- Set the isolate and mixing color-->
+   <g class="isolate">
+   <ellipse cx="100" cy="100" rx="50px" ry="100px" fill="red" ></ellipse>
+   <ellipse cx="100" cy="100" rx="100px" ry="50px" fill="yellow"></ellipse>
+     
+   <ellipse cx="130" cy="110" rx="50px" ry="100px" fill="blue"  class="transform"></ellipse>
+   </g>
+   <text ></text>
+   </svg>
+</body>
